@@ -5,8 +5,10 @@
 <script>
 $(document).ready(function(){
   $("button").click(function(){
-    $("p").hide();
+    $("p").toggle();
   });
+
+  $("h2").css("color", "red");
 });
 </script>
 </head>
@@ -17,7 +19,7 @@ $(document).ready(function(){
 <p>This is a paragraph.</p>
 <p>This is another paragraph.</p>
 
-<button>Click me</button>
+<button>></button>
 
 </body>
 </html>
